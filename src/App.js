@@ -5,6 +5,7 @@ import Create from "./Create";
 import BlogDetails from "./BlogDetails";
 import Contact from "./Contact";
 import NotFound from "./NotFound";
+import LastOne from "./LastOne";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <div className="App">
         <Navbar/>
         <div className="side">
-          
+          <LastOne/>
         </div>
         <div className="content">
           <Switch>

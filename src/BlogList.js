@@ -2,6 +2,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom";
 
 const BlogList = ({Blogs,Title}) => {
     
+    
     return(
         <div>
             <h1>{Title}</h1>

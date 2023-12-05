@@ -6,6 +6,7 @@ import BlogDetails from "./BlogDetails";
 import Contact from "./Contact";
 import NotFound from "./NotFound";
 import LastOne from "./LastOne";
+import ByAuthor from "./ByAuthor";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
             </Route>
             <Route path="/contact">
               <Contact/>
+            </Route>
+            <Route path="/search">
+              <ByAuthor/>
             </Route>
             <Route path="*">
               <NotFound/>

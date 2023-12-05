@@ -1,10 +1,14 @@
 import React from 'react';
 import useFetch from './useFetch';
 import { Link } from 'react-router-dom/cjs/react-router-dom';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faCoffee, faCode, faCheckCircle,faCircle,faDotCircle } from '@fortawesome/free-solid-svg-icons';
+
+
 
 const LastOne = () => {
   const { data: Blogs, loading, ers } = useFetch('http://localhost:8000/blogs');
-  const lastblog = Blogs ? Blogs.slice(-3) : [];
+  const lastblog = Blogs ? Blogs.slice(-3).reverse() : [];
 
   return (
     <div className="last-one">

@@ -433,3 +433,23 @@
 .lastC :hover{
   background-color: #e4dfdf;
 }
+.ByAuthor{
+  border: 2px solid black;
+  
+
+}
+.baC{
+  display: flex;
+  border: 2px solid black;
+}
+.searchBar{
+  height: 25px;
+  width: 200px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.lblb{
+  font-size: 25px;
+  font-weight: bold;
+}

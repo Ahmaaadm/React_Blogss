@@ -28,7 +28,6 @@ const BlogDetails = () => {
             <div style={{display:"flex",flexDirection:"row-reverse"}}>
                 <button onClick={handleDelete} class="button type1"></button>
             </div>
-               
         </div>
     );
 }
